@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="apartment search" />
+    <meta name="keywords" content="apartment,search for an apartment,flat" />
+    <title>apartment search</title>
+  </head>
+  <body>
+    <header>
+      <h1>"Apartment Search"</h1>
+    </header>
+    <div>
+      <img
+        src="https://charmingmoderninteriors.com/wp-content/uploads/2021/12/Apartment-Search.png"
+        alt="Apartment Search"
+        width="650"
+        height="300"
+      />
+    </div>
+    <div>
+      <h3>You can find your perfect apartment here !</h3>
+    </div>
+    <ul>
+      <li>
+        <div class="form-group">
+          <label for="Location">Location</label>
+          <input
+            type="text"
+            name="Location"
+            id="Location"
+            placeholder="put a location!"
+          />
+        </div>
+      </li>
+      <br />
+      <li>
+        <div class="form-group">
+          <label for="Price">Price</label>
+          <input
+            type="range"
+            name="Price"
+            id="Price"
+            min="0"
+            max="100"
+            step="1"
+          />
+        </div>
+      </li>
+      <br />
+      <br />
+      <li>
+        <div class="form-group">
+          <label for="Apartment Area">Apartment Area</label>
+          <input
+            type="number"
+            name="Apartment Area"
+            id="Apartment Area"
+            value="250"
+            required
+          />
+        </div>
+      </li>
+      <br />
+      <br />
+      <li>
+        <div class="form-group">
+          <label for="Number Of Bedrooms">Bedrooms</label>
+          <input
+            type="number"
+            name="Bedrooms"
+            id="Number Of Bedrooms"
+            placeholder="How many Bedrooms?"
+          />
+        </div>
+      </li>
+      <br />
+      <br />
+      <li>
+        <div class="form-group">
+          <label for="Number Of Bathrooms">Bathrooms</label>
+          <input
+            type="number"
+            name="Bathrooms"
+            id="Number Of Bathrooms"
+            placeholder="How many Bathrooms?"
+          />
+        </div>
+      </li>
+      <br />
+      <br />
+      <li>
+        <div class="form-group">
+          <label for="pets">Pets</label>
+          <input type="checkbox" id="Pets" name="Pets" value="Pets" />
+        </div>
+      </li>
+      <br />
+      <br />
+      <li>
+        <div class="form-group">
+          <label for="Date Available">Date Available</label>
+          <input type="date" id="Date Available" name="Date Available" />
+        </div>
+      </li>
+      <br />
+    </ul>
+    <div class="form-group">
+      <input type="submit" value="submit" id="submit" />
+    </div>
+  </body>
+</html>
